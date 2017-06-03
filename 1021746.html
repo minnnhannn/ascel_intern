@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>蔣佩樺 s1021746</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.htm"><img src="img/logo1.png"width="150" height="57"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+				    <li>
+                        <a href="#"><b><font size="4" face="微軟正黑體">TOP</font></b></a>
+                    </li>
+                    <li>
+                        <a href="#about"><b><font size="4" face="微軟正黑體">工作內容</font></b></a>
+                    </li>
+                    <li>
+                        <a href="#services"><b><font size="4" face="微軟正黑體">自我評估與學習心得</font></b></a>
+                    </li>
+                    <li>
+                        <a href="#contact"><b><font size="4" face="微軟正黑體">給系上的建議</font></b></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1><font color="#F8AC9B" face="微軟正黑體"><b>蔣佩樺</b></font></h1>
+				<h2><font color="#F8AC9B" face="微軟正黑體"><b>Daisy Chiang</b></font></h2>
+                <h2><font color="#F8AC9B" face="微軟正黑體">ERP2組</font></h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/ownpage/01.png">
+            <h2 class="featurette-heading"><BR>
+                <span class="text-muted"><font face="微軟正黑體" size="6">實習期間完成的進度</font></span>
+            </h2>
+			     <span class="more">				 
+				 <font face="微軟正黑體" size="3">
+					　　暑假期間，除了之前所翻寫的程式維護以外，並開始著手撰寫新的程式，主要有兩個專案在進行，一個專案為CQB，此專案是替其他廠區所撰寫的，這個程式算一個滿大的系統，目前針對其中的兩大部分在做溝通、設計以及初步開始撰寫：一部份給報價做使用，一部份給成本做計算使用。<BR>
+					　　另一個在進行的專案則是CRP，這是是廠內使用，主要功能是讓使用者一個月份的資料，系統會依照歷史的機台投料紀錄按照比例去做分攤，以往這個動作是人工作業，做一個月資料可能要花上一至兩天，而系統大約半小時內即可完成。另一部份則是主功能所需資料的主檔維護。<BR>
+					<font face="微軟正黑體" size="5"><B>[CQB]</B></font><BR>
+					<center><img src="img/1021746/5.png"width="600"></center><BR>
+					<div class="Summary col-md-6">
+					　　上圖為系統主介面，左方為子系統選單，右方則依所選之模塊顯示相關內容，系統目前主要規劃為兩大部分，一為RFQ，二為RFC，其餘尚在規畫當中。<BR>
+					<BR>
+					</div>
+					<div class="col-md-6">
+					<BR><BR><BR><BR>
+					</div>
+					<div class="Summary col-md-5">
+					<font face="微軟正黑體" size="4"><B>．RFC</B></font><BR>
+					　　RFC是提供給成本使用，分成Assembly、Test、CP及批量上傳四種，介面形式大致相同，Phase1中每一個下拉選項都是連動的，依照前面的條件去篩選，讓使用者更容易、更快速選到自己要的PID，在PID右方則有一個按鈕，點選按鈕後，系統會將此PID的詳細資料於Phase2中呈現，同時將Phase1鎖住，此功能讓使用者可以在所選擇的PID基礎中，替換一些值去計算成本的差異。<BR>
+					　　最後是上方的兩個按鈕，分別是全部清除及提交需求，全部清除會使所有輸入框清空，而提交需求則會自動產生編碼後，新增至資料庫，後端系統則會撈取資料並計算成本，最終將計算結果寄送至使用者。<BR>
+					</div>
+					<div class="col-md-7">
+					<center><img src="img/1021746/6.png"width="600"></center><BR>
+					</div>
+					<div class="Basic-Data col-md-5">
+					<font face="微軟正黑體" size="4"><B>．RFQ</B></font><BR>
+					　　而RFQ介面上方含有一個ToolStrip，其功能分別為Save(儲存)、Modify(編輯)、Apply RFQ、Send To RFC、Create Margin、Send To Approve、Approve、Reject、Batch Upload。<BR>
+					　　使用者進入該系統時選擇Customer則會在下方表格中列出所有該客戶的Quotation，點選該列即會在下方顯示其詳細資訊，下方頁籤中前三個頁籤與RFC雷同，內容亦是與成本相關，其餘則是與RFQ相關，包含客戶的需求及淺在規則，歷史紀錄等等。<BR>
+					</div>
+					<div class="col-md-7">
+					<center><img src="img/1021746/7.png"width="600"></center><BR>
+					</div>
+					<div class="Summary col-md-5">
+					<font face="微軟正黑體" size="5"><B>[CRP]</B></font><BR>
+					　　由於專案尚在開發中，功能還在增加中，介面呈現較粗糙，右圖是CRP目前測試使用介面：<BR>
+					　　程式一開啟會先到一個主目錄，其中包含資料的主檔維護以及主要功能的部分。基本資料維護的畫面如右圖：<BR>
+					</div>
+					<div class="col-md-7">
+					<center><img src="img/1021746/8.png"width="300"></center><BR>
+					</div>
+					<BR>
+					<div class="Summary col-md-5">
+					　　目前頁簽只有6個，隨著功能的擴充，主檔的資料也會增加，後續規劃將主檔的類別做區分，並將此程式拆成多個部分。基本上主檔維護的介面都是包含一個ToolStrip，上面有基本的幾樣功能：Exit(離開)、Query(查詢)、New(新建)、Update(更新)、Delete(刪除)、Save(儲存)、Upload(批量上傳)、Select(全選)，下方則是包含三大區塊，左上為查詢條件，右上則為詳細資料，下方則為一個Gridview顯示查詢後的結果。<BR>
+					　　使用基本流程為：在左方輸入查詢條件並點選Query(查詢)鈕，下方即會顯示所有符合條件之資料，點選下方資料則會在右上方顯示其詳細資料，若欲修改則點選Update(更新)，並直接在文本框中做修改後Save(儲存)。若想新增資料則點選New(新建)，右上方文本框即可使用，輸入資料內容後，同樣點選儲存即完成新增資料。若想一次批量上傳多筆資料則使用Upload(批量上傳)，在有預設格式的Excel中輸入資料上傳後即可完成多筆新增，若在上傳的文檔中，有錯誤的資料會將有誤的資料、原因在下方做說明。最後，若想刪除資料，在Gridview中勾選欲刪除之資料並點選Delete(刪除)即可，若想一次刪除所有資料可使用Select(全選)將所有資料全選。<BR>
+					</div>
+					<div class="col-md-7">
+					<center><img src="img/1021746/9.png"width="600"></center><BR><BR>
+					</div>
+					<BR>
+					<div class="Summary col-md-6">
+					<center><img src="img/1021746/10.png"width="450"></center>
+					</div>
+					<div class="col-md-6">
+					<center><img src="img/1021746/11.png"width="450"></center>
+					</div>
+					<BR>
+					<div class="col-md-12"><BR>
+					　　上圖為這隻程式的主功能，在畫面的上方有三個選項可以選擇，依照所需選擇類型，目前程式設計只有三種，未來還會再增加。下方兩個文本框，一個為輸入本次資料的年份月份，第二個則為選擇上傳檔案來源。以下分別介紹8個RadioButton的詳細功能：<BR>
+					1.	上傳最原始的資料檔，資料量約略上千筆，選擇後執行，程式會將所有資料新增進資料庫後並依使用者所選擇的資料類型，將該種資料做三步的資料轉換，執行完畢後會跳出視窗告知使用者上傳筆數，成功筆數以及失敗筆數。<BR>
+					2.	將第一步上傳失敗的資料下載成Excel檔，檔案中會依照每筆失敗的原因作註解，使用者可利用此檔編輯後，執行第三步。<BR>
+					3.	第三步為上傳第二步修改後的文檔，使用者在第二步修改錯誤的資料或是補充更詳細的資料，亦可以在此時新增新的資料，系統會自動辨認該筆資料為修正錯誤的舊資料或是新上傳的資料，若資料被修正後，系統則會針對這些資料再執行第一步相同的動作。<BR>
+					4.	此為整隻程式最主要的步驟，系統依照規則抓取歷史機台的投料紀錄及其他相關數據，並依照其比例將數量及金額做分攤，同樣地，執行完畢後會跳出視窗告知使用者上傳筆數，成功筆數以及失敗筆數。<BR>
+					5.	此步驟與第二步雷同，將第四步上傳失敗的資料下載成Excel檔，檔案中會依照每筆失敗的原因作註解，使用者可利用此檔編輯後，執行第五步。<BR>
+					6.	第六步為上傳第五步修改後的文檔，使用者在第五步修改錯誤的資料或是補充更詳細的資料，亦可以在此時新增新的資料，系統會自動辨認該筆資料為修正錯誤的舊資料或是新上傳的資料，若資料被修正後，系統則會針對這些資料再執行第四步相同的動作。<BR>
+					7.	使用者先利用第八步下載程式結果，在依照機台或其他需求調整資料，在進行上傳。<BR>
+					8.	前六步完成後，即可使用第八步下載處理完成的資料，下載來源分為兩種，一為系統執行前六步所呈現的結果，二則為第七步使用者自行調整過後的結果；檔案類型日後規畫將會有多種，依照部門或是人員需求的不同呈現不一樣的報表。
+					</div>
+				 </font>
+                 </span>
+                 <br><br>			 
+		</div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="services">
+            <img class="featurette-image img-responsive pull-left" src="img/1021746/02.png">
+            <h2 class="featurette-heading"><BR>
+                <span class="text-muted"><font face="微軟正黑體" size="6">技術面之學習</font></span>
+            </h2>
+				 <span class="more">
+				 <font face="微軟正黑體" size="3">
+					　　一開始的翻寫工作讓我對VB及C#更加的熟悉，此外也學到一些撰寫程式上的小技巧，以及更強化對於程式語言的敏感度，做翻寫這個動作，要非常了解當初撰寫這隻程式的目的，以及每個function的功能，也要試著去了解為何上個工程師要用這個方法去達成目的，試著去思考是否有更佳的方法或是原有的方法有無可以改進或需要修改的地方。經過這些磨練，到了開始自己做撰寫的時候有了很多的幫助，需要類似或相同功能時，可以有個參考的依據，在開發新功能時，也有一定程度的幫助。<BR>
+					　　除了VB及C#以外，由於後期開發的專案需要與資料庫做大量重複的連接，也讓我新接觸到Oracle的Procedure及Function的功能，將一些需要不斷從資料庫抓取資料、新增及修改資料的程式直接撰寫在Oracle中，不斷可以減少從程式中與資料庫的連接次數，進而增進連線的效率，也可以降低因網路速度影響所導致程式緩慢的機會，在Oracle中撰寫Procedure及Function所用的程式碼和VB及C#都不太相同，剛開始使用時，因為一些語法的使用方使不同，導致撰寫速度較慢，或是使用的方式效率不高，常常有較快速的方法卻不知道應該如何撰寫，幸好主管及同事都非常的熱心，有問題的時候向他們請教都會向我解答。<BR>
+
+                 </font>
+				 </span>
+			<h2 class="featurette-heading">
+                <span class="text-muted"><font face="微軟正黑體" size="6">非技術面之學習</font></span>
+            </h2>
+				 <span class="more">
+				 <font face="微軟正黑體" size="3">
+					　　在翻寫程式的時候，常常會看到一些自己從來沒用過的思路，讓我有的時候會花一些時間思考，試著去了解他人為什麼會這樣使用，也思考是否有不一樣或是更好的寫法。在公司不僅是學到工具的使用或是程式的撰寫，在每次要翻寫新的程式時，工程師也會非常詳細的跟我解釋程式的用途，以及專有名詞的意思，公司有時候也會有一些課程，在實習的過程中，我學到的不僅僅只有在程式方面，對於公司也有一些了解。
+                 </font>
+				 </span>
+			<h2 class="featurette-heading">
+				 <span class="text-muted"><font face="微軟正黑體" size="6">心得感想</font></span>
+            </h2>
+				 <span class="more">
+				 <font face="微軟正黑體" size="3">
+					　　現在相較於剛開始進入公司時對於整個環境已經不再陌生，雖然還是會因為對自己的自我要求太高，害怕自己能力不足，感到壓力非常大，但是主管及同事們人都非常熱心，無論我有什麼問題都非常樂意替我解答，也會時常主動關心我。現在一切都漸漸進入軌道，從一開始大約兩天完成一隻小程式到後來有時一天可以完成一隻甚至是兩隻，從以前只是翻寫程式，到現在已經可以開始撰寫新的程式，雖然每次接觸新的東西，或是每當被交付到新工作的時候，都還是會有些緊張，還是會給自己施加壓力，希望自己能夠趕緊上手，不過相較於剛進公司時已經進步了許多。<BR>
+					　　此外，雖然容易遇到以前沒碰過的問題，工作的節奏也比較緊湊，不過，在碰到問題的時候，會先試著去解決，找尋各種方法，不確定的時候會再用自己想到的方法和同事或主管討論，我認為這樣的方式比起漫無目的地詢問來的有效率也更容易進步，我喜歡挑戰自己，有的時候拿到一些太舊的程式，有些功能可能已經太久沒有使用，導致有一些錯誤沒有及時發現，我會嘗試著去理解該功能的用途，試著去修復，每次能夠順利解決時，都感到非常有成就感！<BR>
+					　　目前整個實習對我來說，雖然暑期上五天班很累感覺很辛苦，但是非常的充實，在暑假期間開始有專案，讓我學到了更多，除了一開始程式的撰寫以及新工具的使用以外，我更了解到在替使用著開發新程式時，最一開始的溝通、規劃、設計是最重要的，良好的溝通不但能夠對於使用者需求更加了解，也能夠讓使用者了解到程式的可行性等等，在不同的角度、不同的立場提出看法，也更能事半功倍。
+				 </font>
+				 </span>
+                 <br><br>	
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="contact">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/ownpage/03.png">
+            <h2 class="featurette-heading"><BR>
+                <!-- <span class="text-muted"><font face="微軟正黑體">Will Seal the Deal.</font></span> -->
+            </h2>
+				 <span class="more">
+				 <font face="微軟正黑體" size="3">
+					　　當初一開始要實習的時候其實很茫然，從履歷的準備到面試都是相當的緊張，無論是我或是同學們在準備履歷的同時也在苦惱自己到底有什麼優勢或是有什麼特長及作品可以展現，建議系上可以多提醒學弟妹們從大一開始平常就應該好好準備，讓自己隨時都可以處於備戰的狀態。系上雖然有提供履歷的範本，但其實那只是告訴你一個方向，有許多同學是直接下載格式照著填寫，但我想對於廠商而言那太簡略了，所以建議系上可以多向已經實習過的同學，詢問是否可以提供系上成為範本，我想這對以後的學弟妹應該有莫大的幫助！<BR>
+					　　一直以來都學的實作比只單純學習觀念要來的重要許多，實習就是給我們這個機會，讓我們能夠將在校所學加以運用，但是我覺得學校學到的對我們來說是不夠的，我覺得課程應該更著重於實作，除了一般的出題解答，讓學生有更多自我創作及學習的機會更好，像是期末許多老師都會要我們做專題，我覺得在做專題的時候能讓我快速的成長，除了要能先將所學融會貫通以外，要將想法轉為實際才是最難的！<BR>
+					　　在選擇實習工作的時候，是非常困難的，無論是對自己的不夠了解，也是對公司職務的不了解，當初只知道自己是對撰寫程式非常有興趣的，但是光是「撰寫程式」就分很多種，在面試的時候被詢問到想寫前端還是後端的程式，我當下有些愣住，當時的我不清楚其中的差異性，以及自己更偏好哪一種，建議系上能更深入了解各公司的職務確切是在做什麼，否則同學們很容易到了公司之後才發現，實際上跟自己想像的不一樣，也更能讓同學知道自己更喜歡、更適合哪種工作。
+
+				 </font>
+				 </span>
+                 <br><br>	
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><font face="微軟正黑體">Copyright &copy; 曾敏涵 2016</font></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+
+	<!-- Read More JavaScript -->
+	<script type="text/javascript">
+        $(document).ready(function() {
+            // Configure/customize these variables.
+            var showChar = 4000; // How many characters are shown by default
+            var ellipsestext = "...";
+            var moretext = "Show More >"
+            var lesstext = "Show less";
+                
+        
+            $('.more').each(function() {
+                var content = $(this).html();
+        
+                if(content.length > showChar) {
+        
+                    var c = content.substr(0, showChar);
+                    var h = content.substr(showChar, content.length - showChar);
+        
+                    var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+        
+                    $(this).html(html);
+                }
+        
+            });
+        
+            $(".morelink").click(function(){
+                if($(this).hasClass("less")) {
+                    $(this).removeClass("less");
+                    $(this).html(moretext);
+                } else {
+				    $(this).addClass("less");
+                    $(this).html(lesstext);
+                }
+                $(this).parent().prev().toggle();
+                $(this).prev().toggle();
+                return false;
+            });
+        });
+    </script>
+    <style>
+        .morecontent span {
+            display: none;
+        }
+        .morelink {
+            display: block;
+        }
+    </style>
+</body>
+
+</html>
